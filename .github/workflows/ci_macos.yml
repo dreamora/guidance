@@ -21,10 +21,6 @@ on:
         description: 'Branch or Commit ID (optional)'
         required: false
         type: string
-  schedule:
-    # * is a special character in YAML so we quote this string
-    # Run at 09:10 UTC every day
-    - cron:  '10 09 * * *'
 
 jobs:
   cpu_small:

@@ -10,9 +10,6 @@ on:
         description: 'Branch or Commit ID (optional)'
         required: false
         type: string
-  schedule:
-    # Run at 10:00 UTC every day
-    - cron: "00 10 * * *"
 
 jobs:
   build_widget:

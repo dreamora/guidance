@@ -8,9 +8,6 @@ on:
         description: 'Branch or Commit ID (optional)'
         required: false
         type: string
-  schedule:
-    # Run at 09:00 UTC every day
-    - cron: "00 09 * * *"
 
 jobs:
   unit_tests:
